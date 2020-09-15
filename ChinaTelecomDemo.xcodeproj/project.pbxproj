@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9171A749250F1595004ECC13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A748250F1595004ECC13 /* AppDelegate.swift */; };
+		9171A74B250F1595004ECC13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A74A250F1595004ECC13 /* SceneDelegate.swift */; };
+		9171A74D250F1595004ECC13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A74C250F1595004ECC13 /* ViewController.swift */; };
+		9171A750250F1595004ECC13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9171A74E250F1595004ECC13 /* Main.storyboard */; };
+		9171A752250F1598004ECC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9171A751250F1598004ECC13 /* Assets.xcassets */; };
+		9171A755250F1598004ECC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9171A753250F1598004ECC13 /* LaunchScreen.storyboard */; };
+		9171A760250F1598004ECC13 /* ChinaTelecomDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A75F250F1598004ECC13 /* ChinaTelecomDemoTests.swift */; };
+		9171A76B250F1598004ECC13 /* ChinaTelecomDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A76A250F1598004ECC13 /* ChinaTelecomDemoUITests.swift */; };
+		9171A785250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A784250F1A4A004ECC13 /* ChinaTelecomPage.swift */; };
+		9171A786250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A784250F1A4A004ECC13 /* ChinaTelecomPage.swift */; };
+		9171A787250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171A784250F1A4A004ECC13 /* ChinaTelecomPage.swift */; };
+		9171A78B250F75C0004ECC13 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A78A250F75C0004ECC13 /* libc++.1.tbd */; };
+		9171A78D250F75CE004ECC13 /* libz.1.2.8.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A78C250F75CE004ECC13 /* libz.1.2.8.tbd */; };
+		9171A7932510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
+		9171A7942510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
+		9171A7952510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
+		9171A79725105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
+		9171A79825105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
+		9171A79925105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9171A75C250F1598004ECC13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9171A73D250F1595004ECC13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9171A744250F1595004ECC13;
+			remoteInfo = ChinaTelecomDemo;
+		};
+		9171A767250F1598004ECC13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9171A73D250F1595004ECC13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9171A744250F1595004ECC13;
+			remoteInfo = ChinaTelecomDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9171A745250F1595004ECC13 /* ChinaTelecomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaTelecomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171A748250F1595004ECC13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9171A74A250F1595004ECC13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9171A74C250F1595004ECC13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9171A74F250F1595004ECC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9171A751250F1598004ECC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9171A754250F1598004ECC13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9171A756250F1598004ECC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9171A75B250F1598004ECC13 /* ChinaTelecomDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaTelecomDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171A75F250F1598004ECC13 /* ChinaTelecomDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaTelecomDemoTests.swift; sourceTree = "<group>"; };
+		9171A761250F1598004ECC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9171A766250F1598004ECC13 /* ChinaTelecomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinaTelecomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171A76A250F1598004ECC13 /* ChinaTelecomDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaTelecomDemoUITests.swift; sourceTree = "<group>"; };
+		9171A76C250F1598004ECC13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9171A784250F1A4A004ECC13 /* ChinaTelecomPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaTelecomPage.swift; sourceTree = "<group>"; };
+		9171A788250F70E0004ECC13 /* ChinaTelecom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChinaTelecom-Bridging-Header.h"; sourceTree = "<group>"; };
+		9171A78A250F75C0004ECC13 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		9171A78C250F75CE004ECC13 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		9171A7922510510B004ECC13 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountHYSDK.framework; sourceTree = "<group>"; };
+		9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9171A742250F1595004ECC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A7932510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */,
+				9171A78D250F75CE004ECC13 /* libz.1.2.8.tbd in Frameworks */,
+				9171A78B250F75C0004ECC13 /* libc++.1.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A758250F1598004ECC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A7942510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A763250F1598004ECC13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A7952510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9171A73C250F1595004ECC13 = {
+			isa = PBXGroup;
+			children = (
+				9171A747250F1595004ECC13 /* ChinaTelecomDemo */,
+				9171A75E250F1598004ECC13 /* ChinaTelecomDemoTests */,
+				9171A769250F1598004ECC13 /* ChinaTelecomDemoUITests */,
+				9171A746250F1595004ECC13 /* Products */,
+				9171A789250F75C0004ECC13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9171A746250F1595004ECC13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9171A745250F1595004ECC13 /* ChinaTelecomDemo.app */,
+				9171A75B250F1598004ECC13 /* ChinaTelecomDemoTests.xctest */,
+				9171A766250F1598004ECC13 /* ChinaTelecomDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9171A747250F1595004ECC13 /* ChinaTelecomDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */,
+				9171A7922510510B004ECC13 /* EAccountHYSDK.framework */,
+				9171A748250F1595004ECC13 /* AppDelegate.swift */,
+				9171A74A250F1595004ECC13 /* SceneDelegate.swift */,
+				9171A74C250F1595004ECC13 /* ViewController.swift */,
+				9171A784250F1A4A004ECC13 /* ChinaTelecomPage.swift */,
+				9171A74E250F1595004ECC13 /* Main.storyboard */,
+				9171A751250F1598004ECC13 /* Assets.xcassets */,
+				9171A753250F1598004ECC13 /* LaunchScreen.storyboard */,
+				9171A756250F1598004ECC13 /* Info.plist */,
+				9171A788250F70E0004ECC13 /* ChinaTelecom-Bridging-Header.h */,
+			);
+			path = ChinaTelecomDemo;
+			sourceTree = "<group>";
+		};
+		9171A75E250F1598004ECC13 /* ChinaTelecomDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9171A75F250F1598004ECC13 /* ChinaTelecomDemoTests.swift */,
+				9171A761250F1598004ECC13 /* Info.plist */,
+			);
+			path = ChinaTelecomDemoTests;
+			sourceTree = "<group>";
+		};
+		9171A769250F1598004ECC13 /* ChinaTelecomDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9171A76A250F1598004ECC13 /* ChinaTelecomDemoUITests.swift */,
+				9171A76C250F1598004ECC13 /* Info.plist */,
+			);
+			path = ChinaTelecomDemoUITests;
+			sourceTree = "<group>";
+		};
+		9171A789250F75C0004ECC13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9171A78C250F75CE004ECC13 /* libz.1.2.8.tbd */,
+				9171A78A250F75C0004ECC13 /* libc++.1.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9171A744250F1595004ECC13 /* ChinaTelecomDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171A76F250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemo" */;
+			buildPhases = (
+				9171A741250F1595004ECC13 /* Sources */,
+				9171A742250F1595004ECC13 /* Frameworks */,
+				9171A743250F1595004ECC13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChinaTelecomDemo;
+			productName = ChinaTelecomDemo;
+			productReference = 9171A745250F1595004ECC13 /* ChinaTelecomDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9171A75A250F1598004ECC13 /* ChinaTelecomDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171A772250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemoTests" */;
+			buildPhases = (
+				9171A757250F1598004ECC13 /* Sources */,
+				9171A758250F1598004ECC13 /* Frameworks */,
+				9171A759250F1598004ECC13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9171A75D250F1598004ECC13 /* PBXTargetDependency */,
+			);
+			name = ChinaTelecomDemoTests;
+			productName = ChinaTelecomDemoTests;
+			productReference = 9171A75B250F1598004ECC13 /* ChinaTelecomDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9171A765250F1598004ECC13 /* ChinaTelecomDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171A775250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemoUITests" */;
+			buildPhases = (
+				9171A762250F1598004ECC13 /* Sources */,
+				9171A763250F1598004ECC13 /* Frameworks */,
+				9171A764250F1598004ECC13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9171A768250F1598004ECC13 /* PBXTargetDependency */,
+			);
+			name = ChinaTelecomDemoUITests;
+			productName = ChinaTelecomDemoUITests;
+			productReference = 9171A766250F1598004ECC13 /* ChinaTelecomDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9171A73D250F1595004ECC13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = LarryTeam;
+				TargetAttributes = {
+					9171A744250F1595004ECC13 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					9171A75A250F1598004ECC13 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9171A744250F1595004ECC13;
+					};
+					9171A765250F1598004ECC13 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9171A744250F1595004ECC13;
+					};
+				};
+			};
+			buildConfigurationList = 9171A740250F1595004ECC13 /* Build configuration list for PBXProject "ChinaTelecomDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9171A73C250F1595004ECC13;
+			productRefGroup = 9171A746250F1595004ECC13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9171A744250F1595004ECC13 /* ChinaTelecomDemo */,
+				9171A75A250F1598004ECC13 /* ChinaTelecomDemoTests */,
+				9171A765250F1598004ECC13 /* ChinaTelecomDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9171A743250F1595004ECC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A79725105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+				9171A755250F1598004ECC13 /* LaunchScreen.storyboard in Resources */,
+				9171A752250F1598004ECC13 /* Assets.xcassets in Resources */,
+				9171A750250F1595004ECC13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A759250F1598004ECC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A79825105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A764250F1598004ECC13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A79925105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9171A741250F1595004ECC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A74D250F1595004ECC13 /* ViewController.swift in Sources */,
+				9171A749250F1595004ECC13 /* AppDelegate.swift in Sources */,
+				9171A785250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */,
+				9171A74B250F1595004ECC13 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A757250F1598004ECC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A786250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */,
+				9171A760250F1598004ECC13 /* ChinaTelecomDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171A762250F1598004ECC13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171A787250F1A4A004ECC13 /* ChinaTelecomPage.swift in Sources */,
+				9171A76B250F1598004ECC13 /* ChinaTelecomDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9171A75D250F1598004ECC13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9171A744250F1595004ECC13 /* ChinaTelecomDemo */;
+			targetProxy = 9171A75C250F1598004ECC13 /* PBXContainerItemProxy */;
+		};
+		9171A768250F1598004ECC13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9171A744250F1595004ECC13 /* ChinaTelecomDemo */;
+			targetProxy = 9171A767250F1598004ECC13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9171A74E250F1595004ECC13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9171A74F250F1595004ECC13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9171A753250F1598004ECC13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9171A754250F1598004ECC13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9171A76D250F1598004ECC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9171A76E250F1598004ECC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9171A770250F1598004ECC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7VB88KFYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ChinaTelecomDemo/EAccountHYSDK.framework\"/**";
+				INFOPLIST_FILE = ChinaTelecomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-force_load",
+					"\"$(SRCROOT)/ChinaTelecomDemo/EAccountHYSDK.framework/EAccountHYSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woodemi.smartnote.light;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChinaTelecomDemo/ChinaTelecom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9171A771250F1598004ECC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7VB88KFYV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/ChinaTelecomDemo/EAccountHYSDK.framework\"/**";
+				INFOPLIST_FILE = ChinaTelecomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-force_load",
+					"\"$(SRCROOT)/ChinaTelecomDemo/EAccountHYSDK.framework/EAccountHYSDK\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.woodemi.smartnote.light;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChinaTelecomDemo/ChinaTelecom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9171A773250F1598004ECC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33NB6H2NR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				INFOPLIST_FILE = ChinaTelecomDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larry.ChinaTelecomDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinaTelecomDemo.app/ChinaTelecomDemo";
+			};
+			name = Debug;
+		};
+		9171A774250F1598004ECC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33NB6H2NR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				INFOPLIST_FILE = ChinaTelecomDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larry.ChinaTelecomDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinaTelecomDemo.app/ChinaTelecomDemo";
+			};
+			name = Release;
+		};
+		9171A776250F1598004ECC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33NB6H2NR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				INFOPLIST_FILE = ChinaTelecomDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larry.ChinaTelecomDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinaTelecomDemo;
+			};
+			name = Debug;
+		};
+		9171A777250F1598004ECC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C33NB6H2NR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChinaTelecomDemo",
+				);
+				INFOPLIST_FILE = ChinaTelecomDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larry.ChinaTelecomDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinaTelecomDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9171A740250F1595004ECC13 /* Build configuration list for PBXProject "ChinaTelecomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171A76D250F1598004ECC13 /* Debug */,
+				9171A76E250F1598004ECC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171A76F250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171A770250F1598004ECC13 /* Debug */,
+				9171A771250F1598004ECC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171A772250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171A773250F1598004ECC13 /* Debug */,
+				9171A774250F1598004ECC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171A775250F1598004ECC13 /* Build configuration list for PBXNativeTarget "ChinaTelecomDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171A776250F1598004ECC13 /* Debug */,
+				9171A777250F1598004ECC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9171A73D250F1595004ECC13 /* Project object */;
+}
