@@ -11,6 +11,8 @@ import UIKit
 let kAppId = ""    //请在开放平台申请
 let kAppSecret = ""    //请在开放平台申请
 
+let w = UIScreen.main.bounds.width
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -28,7 +30,6 @@ class ViewController: UIViewController {
         
         let offset_x: CGFloat = 50
         var offset_y: CGFloat = 100
-        let w = UIScreen.main.bounds.width
         
         var tagIndex = 10000
         
@@ -81,17 +82,32 @@ class ViewController: UIViewController {
             break;
         }
         
-        //  normal config
-        config.paLabelText = "登录即同意$OAT与$CAT并授权[应用名]获取本机号码";
-        config.paLabelOtherTextColor = UIColor.purple
-        config.paNameColor = UIColor.red
-        config.partnerPANameColor = UIColor.green
-        config.partnerPAName = "《合作方自定义协议》"
-        config.webNavText = "服务与隐私协议";
-        config.paUrl = "http://www.baidu.com";
-        config.pWebNavText = "自定义协议在右";
+        //  nav
+        config.navGoBackImg_normal = UIImage(named: "delete_X")!
+        config.navGoBackImg_highlighted = UIImage(named: "delete_X")!
+        config.navText = ""
+        config.navLineColor = .clear
         
-        config.paLabelTextLineSpacing = 4;
+        //  logoImg
+        config.logoImg = UIImage(named: "noteBook_logo")!
+        
+        config.paLabelText = "登录即同意$OAT与$CAT"
+        config.paLabelOtherTextColor = .purple
+        config.paNameColor = .red
+        config.partnerPANameColor = .green
+        config.partnerPAName = "《36记用户协议》"
+        config.webNavText = "服务与隐私协议"
+        config.paUrl = "http://www.baidu.com"
+        config.pWebNavText = "自定义协议在右"
+        
+        config.paLabelTextLineSpacing = 4
+        
+        //  一键登录按钮
+        config.logBtnWidth = 100.0
+        config.logBtnText = "一键登录"
+        
+        //  隐藏“其他登录方式”
+        config.otherWayLogBtnHidden = true
         
         EAccountOpenPageSDK.openAtuhVC(config, controller: self, clickHandler: { (senderTag) in
             print("senderTag = \(senderTag)")

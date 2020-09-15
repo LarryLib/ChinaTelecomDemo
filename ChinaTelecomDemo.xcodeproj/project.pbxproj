@@ -23,9 +23,9 @@
 		9171A7932510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
 		9171A7942510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
 		9171A7952510510B004ECC13 /* EAccountHYSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9171A7922510510B004ECC13 /* EAccountHYSDK.framework */; };
-		9171A79725105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
-		9171A79825105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
-		9171A79925105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */; };
+		9171A79B2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79A2510AE9B004ECC13 /* EAccountOpenPageResource.bundle */; };
+		9171A79C2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79A2510AE9B004ECC13 /* EAccountOpenPageResource.bundle */; };
+		9171A79D2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9171A79A2510AE9B004ECC13 /* EAccountOpenPageResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		9171A78A250F75C0004ECC13 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 		9171A78C250F75CE004ECC13 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 		9171A7922510510B004ECC13 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EAccountHYSDK.framework; sourceTree = "<group>"; };
-		9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
+		9171A79A2510AE9B004ECC13 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EAccountOpenPageResource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 		9171A747250F1595004ECC13 /* ChinaTelecomDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9171A79625105112004ECC13 /* EAccountOpenPageResource.bundle */,
+				9171A79A2510AE9B004ECC13 /* EAccountOpenPageResource.bundle */,
 				9171A7922510510B004ECC13 /* EAccountHYSDK.framework */,
 				9171A748250F1595004ECC13 /* AppDelegate.swift */,
 				9171A74A250F1595004ECC13 /* SceneDelegate.swift */,
@@ -268,7 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9171A79725105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+				9171A79B2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
 				9171A755250F1598004ECC13 /* LaunchScreen.storyboard in Resources */,
 				9171A752250F1598004ECC13 /* Assets.xcassets in Resources */,
 				9171A750250F1595004ECC13 /* Main.storyboard in Resources */,
@@ -279,7 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9171A79825105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+				9171A79C2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9171A79925105112004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
+				9171A79D2510AE9B004ECC13 /* EAccountOpenPageResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
